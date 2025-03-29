@@ -1,0 +1,18 @@
+{
+    "model_path":"/wynton/protected/project/shared_models/",
+    "model_name":"biomistral-hf_series/BioMistral-7B",
+    "model_config":{
+        "load_in_8bit":true,
+        "local_files_only":true
+    },
+    "tokenizer_config":{
+        "padding_size":"left",
+        "local_files_only":true,
+        "model_max_length":8192
+    },
+    "generation_config":{
+        "max_new_tokens":250,
+        "do_sample":false,
+        "top_p":1
+    }
+}
